@@ -1,1 +1,50 @@
-# WDP
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void wypisz(void)
+{
+    printf("Panie Janie!\n");
+}
+
+void wypis(void)
+{
+    printf("Rano wstan!\n");
+}
+
+void usmiech(void)
+{
+    printf("Usmiech!");
+}
+
+int main()
+{
+    printf("Oskar Pokropinski\n");
+    printf("Oskar\nPokropinski\n");
+    printf("Oskar ");
+    printf("Pokropinski\n\n");
+
+    printf("Oskar Warszawska 5/2\n\n");
+
+    int wiekl,wiekd;
+    printf("Podaj ile masz lat:");
+    scanf("%i",&wiekl);
+    wiekd=365*wiekl;
+    printf("Twoj wiek w dniach to %i\n\n",wiekd);
+
+    wypisz();
+    wypisz();
+    wypis();
+
+
+    int liczba1=10,liczba2,liczba3;
+    liczba2=liczba1*2;
+    liczba3=liczba1*liczba1;
+    printf("\nLiczba1:%i\nLiczba2:%i*2=%i\nLiczba3:%i^2=%i\n\n"
+    ,liczba1,liczba1,liczba2,liczba1,liczba3);
+
+    usmiech();usmiech();usmiech();printf("\n");
+    usmiech();usmiech();printf("\n");
+    usmiech();printf("\n");
+    return 0;
+}
