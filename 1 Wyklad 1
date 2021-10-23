@@ -1,1 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+int main()
+{
+    float cm,cale;
+    printf("Witaj podaj liczbe cali:");
+    scanf("%f",&cale);
+    cm=cale*2.54;
+    printf("Pdana liczba cali po przeliczeniu na cm to %f",cm);
+    /*
+    Deklaracja 2 zmiennych typy float
+    Pobranie zmiennej 
+    Wykonanie dzialania cale * przelicznik
+    Wyswietlenie wyniku dzialania
+    */
+    return 0;
+}
