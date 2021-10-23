@@ -9,6 +9,8 @@ int main()
     cm=cale*2.54;
     printf("Pdana liczba cali po przeliczeniu na cm to %f",cm);
     /*
+           Dokumentacja
+           
     Deklaracja 2 zmiennych typy float
     Pobranie zmiennej 
     Wykonanie dzialania cale * przelicznik
